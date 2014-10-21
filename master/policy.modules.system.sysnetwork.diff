@@ -148,7 +148,6 @@ index 11247e2..dcb4bbe 100644
 @@ -108,6 +110,7 @@ corenet_udp_bind_dhcpc_port(dhcpc_t)
  corenet_tcp_connect_all_ports(dhcpc_t)
  corenet_sendrecv_dhcpd_client_packets(dhcpc_t)
- corenet_sendrecv_dhcpc_server_packets(dhcpc_t)
 +corenet_udp_bind_all_ports(dhcpc_t)
  
  dev_read_sysfs(dhcpc_t)
